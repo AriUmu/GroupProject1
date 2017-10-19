@@ -97,7 +97,7 @@ public class Logining extends JFrame {
         jFrame.add(box2);
         jFrame.add(box3);
         jFrame.add(mainBox);
-        jFrame.setBounds(50,50,40,40);
+        jFrame.setBounds(200,200,300,150);
 
     }
 }
