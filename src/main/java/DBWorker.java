@@ -24,7 +24,7 @@ public class DBWorker {
             Driver driver = new FabricMySQLDriver();
             DriverManager.registerDriver(driver);
         } catch (SQLException e) {
-            System.err.println("Нет соединения");
+            System.err.println("Нет соединения с базой данных");
         }
 
         try {
